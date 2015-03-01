@@ -1,3 +1,4 @@
+#!/bin/sh
 UPDATE_URL="https://raw.github.com/jduckles/minecraft-server-manager/master"
 wget -q ${UPDATE_URL}/installers/common.sh -O /tmp/msmcommon.sh
 source /tmp/msmcommon.sh && rm -f /tmp/msmcommon.sh
